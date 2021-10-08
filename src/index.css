@@ -5,3 +5,39 @@ body {
   background-image: url('./images/sw-bg.jpg');
   background-size: cover;
 }
+.StarWarsCard{
+  display: flex;
+  flex-direction: column;
+ 
+
+}
+.StarWarsContainer{
+  margin-left:300px;
+  margin-right: 300px;
+  opacity: 0.85;
+}
+.StarWarsInfo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: black;
+  padding-left: 50px;
+  padding-right: 30px;; 
+  border: 2px solid green;
+  border-radius:20px;
+}
+.StarWarsInfo:hover{
+  background-color: rgb(78, 119, 99);
+  opacity: 0.75;
+}
+.NameCard{
+  color: rgb(255, 244, 244);
+  text-align: left;
+  background-color: rgb(145, 17, 17);
+  border-radius:5px
+}
+.TagCard{
+  color: rgb(255, 244, 244);
+  background-color: rgb(145, 17, 17);
+  border-radius:6px;
+}

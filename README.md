@@ -79,6 +79,14 @@ After finishing your required elements, you can push your work further. These go
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. Put your answers underneath the questions:
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
+
+React JS was created by dfacebook to standardize and streamline Webdevelopment. By utilizing REACT JSX we are able to rapidly deploy web solutions with reuseable and scaleable code. 
+
 1. Describe component state.
+component state is before and after interacting with an aPI. after an api call the component changes the state to the data fetched
+
 1. Describe props.
+props are promises made on variables to pass to other parts of our application with the expected result of the data being complete and not corrupted. 
+
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+side effects are interactions with the aPI and we use useEffect to puull / connect to the api THEn we use .then to send the call bak to our states.
